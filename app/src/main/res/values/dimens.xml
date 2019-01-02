@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="exoplayer_height">280dp</dimen>
+    <dimen name="fragment_width">280dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="widget_padding">8dp</dimen>
+    <dimen name="widget_text_size">20sp</dimen>
+    <dimen name="widget_list_text_padding">6dp</dimen>
+    <dimen name="widget_list_divider">6dp</dimen>
+    <dimen name="widget_list_text">16sp</dimen>
+
+    <dimen name="divider_view_height">2dp</dimen>
+    <dimen name="card_radius">6dp</dimen>
+    <dimen name="card_radius_large">12dp</dimen>
+
+    <dimen name="simple_padding">8dp</dimen>
+    <dimen name="simple_margin">8dp</dimen>
+    <dimen name="sixteen_dps">16dp</dimen>
+    <dimen name="padding_header">18dp</dimen>
+    <dimen name="margin_large">22dp</dimen>
+
+    <dimen name="text_size_basic">16sp</dimen>
+    <dimen name="text_size_medium">20sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="text_size_very_large">24sp</dimen>
+
+
+
+</resources>

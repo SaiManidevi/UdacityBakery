@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Udacity Bakery</string>
+    <string name="ingredients_title">Ingredients</string>
+    <string name="steps_title">Steps</string>
+    <string name="sample_description">2. Melt the butter and bittersweet chocolate together in a microwave or a double boiler. If microwaving, heat for 30 seconds at a time, removing bowl and stirring ingredients in between.</string>
+    <string name="next_btn">Next</string>
+    <string name="previous_btn">Previous</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="add_ingredients">Let\'s bake! Add any recipe ingredients here.</string>
+    <string name="chef_image_desc">Image of a small chef</string>
+    <string name="add_to_widget_button">Add to Widget</string>
+    <string name="no_more_step">You are done baking! Enjoy.</string>
+    <string name="this_is_step_one">This is step one. Click Next to move along.</string>
+    <string name="add_ingredients_to_widget">Missing ingredients? Shop soon and add the ingredients list to our app\'s widget!</string>
+    <string name="unable_to_retrieve">Uh oh. Unable to retrieve data!</string>
+    <string name="nutella_pie">Nutella Pie</string>
+    <string name="appwidget_created">Ingredients added!</string>
+</resources>

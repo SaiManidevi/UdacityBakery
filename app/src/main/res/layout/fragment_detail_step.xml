@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/exo_player_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/exoplayer_height"
+            app:surface_type="texture_view"
+            tools:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/iv_no_video_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/exoplayer_height"
+            tools:visibility="gone" />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/simple_margin"
+            app:cardCornerRadius="@dimen/card_radius_large">
+
+            <TextView
+                android:id="@+id/tv_step_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/simple_margin"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size_basic"
+                tools:text="@string/sample_description" />
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="@dimen/sixteen_dps">
+
+            <Button
+                android:id="@+id/btn_prev"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_marginRight="@dimen/sixteen_dps"
+                android:layout_weight="1"
+                android:background="@color/orangeDark"
+                android:text="@string/previous_btn" />
+
+            <Button
+                android:id="@+id/btn_next"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/sixteen_dps"
+                android:layout_marginRight="@dimen/margin_large"
+                android:layout_weight="1"
+                android:background="@color/orangeDark"
+                android:text="@string/next_btn" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>

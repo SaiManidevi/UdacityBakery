@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/ingredients_widget_provider"
+    android:initialLayout="@layout/ingredients_widget_provider"
+    android:minHeight="110dp"
+    android:minWidth="180dp"
+    android:previewImage="@drawable/chef"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen"/>
