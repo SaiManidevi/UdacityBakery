@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
@@ -14,6 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/fauna_one"
             android:padding="@dimen/widget_list_text_padding"
             android:textColor="@color/orangeDark"
             android:textSize="@dimen/text_size_medium"
@@ -22,7 +23,7 @@
 
         <ListView
             android:id="@+id/widget_list_view"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:dividerHeight="@dimen/widget_list_divider" />
 

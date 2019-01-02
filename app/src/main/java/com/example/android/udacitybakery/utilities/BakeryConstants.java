@@ -7,7 +7,7 @@ import android.os.Build;
 import java.util.HashMap;
 
 public class BakeryConstants {
-    public static final String BAKERY_URL = "add-link-here";
+    public static final String BAKERY_URL = "add-url-given-by-udacity-to-fetch-json";
     public static final String KEY_CURRENT_STEP = "currentRecipeKey";
     public static final String STATE_OF_FRAGMENT = "state_recipe_detail";
     public static final String KEY_RECIPE_STEP_LIST = "recipeStepListKey";

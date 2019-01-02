@@ -7,9 +7,10 @@
 
     <TextView
         android:id="@+id/tv_widget_item"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
+        android:fontFamily="@font/give_you_glory"
         android:padding="@dimen/widget_list_text_padding"
         android:textColor="@color/orangeDark"
         android:textSize="@dimen/widget_text_size"

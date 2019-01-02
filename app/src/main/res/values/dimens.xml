@@ -9,7 +9,7 @@ http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
     -->
     <dimen name="widget_margin">8dp</dimen>
     <dimen name="widget_padding">8dp</dimen>
-    <dimen name="widget_text_size">20sp</dimen>
+    <dimen name="widget_text_size">22sp</dimen>
     <dimen name="widget_list_text_padding">6dp</dimen>
     <dimen name="widget_list_divider">6dp</dimen>
     <dimen name="widget_list_text">16sp</dimen>
